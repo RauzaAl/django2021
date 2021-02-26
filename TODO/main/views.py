@@ -43,7 +43,7 @@ def todo_list(request):
 
     return render(request, 'todo_list.html', context=context)
 
-def todo_list_completed(request):
+def todo_list_complited(request):
     tasks = [
         {
             'id': '0',
